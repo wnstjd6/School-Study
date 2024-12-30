@@ -48,12 +48,14 @@ class Fruit extends Product{
 }
 public class clas06 {
     Scanner sc = new Scanner(System.in);
-    void displayInventory(Product[] products){
+    static void displayInventory( Product[] products){
         String fruitDate = "바나나 1000 5 사과 500 6 멜론 1500 2";
-        StringTokenizer Date = new StringTokenizer(fruitDate);
+            StringTokenizer Date = new StringTokenizer(fruitDate);
     }
     public static void  main(String[] args){
-        
+        while(true){
+            System.out.println("현재 상품 재고 : ");
+        }
 
 //        main 메서드를 갖습니다.
 //                displayInventory(Product[] products) 메소드를 갖습니다.
